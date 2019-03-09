@@ -1,6 +1,6 @@
 #define SIZE 20
-#import "error.h"
-#import "stack.h"
+#include "error.h"
+#include "stack.h"
 #include <stdio.h>
 #include <string.h>
 #include <fstream>

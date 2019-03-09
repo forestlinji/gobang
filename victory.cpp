@@ -1,4 +1,4 @@
-#pragma once
+
 #define SIZE 20 
 
 extern int board[SIZE][SIZE];

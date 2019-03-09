@@ -1,4 +1,4 @@
-#pragma once
+
 #include "error.h"
 void STACK_EMPTY(){
     int a;

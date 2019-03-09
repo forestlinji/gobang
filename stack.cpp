@@ -1,8 +1,8 @@
-#pragma once
 
-#import <string.h>
-#import "stack.h"
-#import "error.h"
+
+#include <string.h>
+#include "stack.h"
+#include "error.h"
 
 void stack::init()
 {
@@ -10,7 +10,7 @@ void stack::init()
     bottom = rsp = &s[0];
 }
 
-cell stack::push(cell a)
+void stack::push(cell a)
 {
     *(rsp++) = a;
 }

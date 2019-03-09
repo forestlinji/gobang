@@ -1,7 +1,5 @@
-
-#pragma once
-#import <stdio.h>
-#import <windows.h>
+#include <stdio.h>
+#include <windows.h>
 #define SIZE 20
 extern int board[SIZE][SIZE];
 

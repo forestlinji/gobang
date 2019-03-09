@@ -1,10 +1,10 @@
-#pragma once
-#import <string.h>
-#import <stdio.h>
-#import "stack.h"
-#import "error.h"
-//#import "draw.cpp"
-//#import "victory.cpp"
+
+#include <string.h>
+#include <stdio.h>
+#include "stack.h"
+#include "error.h"
+//#include "draw.cpp"
+//#include "victory.cpp"
 #define SIZE 20
 
 int victory(int x, int y, int color);

@@ -1,4 +1,5 @@
-#pragma once
+#ifndef STACK_H
+#define STACK_H
 
 struct cell{
     int x,y,state;
@@ -9,10 +10,12 @@ struct stack{
     cell s[410];
     cell *bottom,*rsp;
     void init();
-    cell push(cell a);
+    void push(cell a);
     cell pop();
     cell top();
     int size();
     int empty();
     void clear();
 };
+
+#endif
