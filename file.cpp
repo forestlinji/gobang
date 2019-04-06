@@ -1,15 +1,13 @@
 #define SIZE 20
-#include "error.h"
+
 #include "stack.h"
 #include <stdio.h>
 #include <string.h>
-#include <fstream>
-using namespace std;
 extern int board[SIZE][SIZE];
 extern stack path;
 void save(char* filename)
 {
-    
+    //用于存储棋盘,存放在filename文件里
     FILE* file=fopen(filename,"w");
     while(!path.empty()){
         cell temp=path.top();
@@ -22,6 +20,7 @@ void save(char* filename)
 
 void load(char* filename)
 {
+    //读取存储在filename中的棋盘
     FILE *file = fopen(filename, "r");
     path.clear();
     stack t;

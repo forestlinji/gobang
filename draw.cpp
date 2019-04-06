@@ -1,5 +1,5 @@
 #include <stdio.h>
-#include <windows.h>
+#include <stdlib.h>
 #define SIZE 20
 extern int board[SIZE][SIZE];
 

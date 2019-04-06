@@ -1,8 +1,6 @@
-
-
 #include <string.h>
 #include "stack.h"
-#include "error.h"
+
 
 void stack::init()
 {
@@ -25,7 +23,6 @@ cell stack::pop()
     cell t = {0, 0, 0};
     if (empty())
     {
-        //stackempty();
         return t;
     }
     else
@@ -37,7 +34,6 @@ cell stack::top()
     cell t = {0, 0, 0};
     if (empty())
     {
-        //stackempty();
         return t;
     }
     else
